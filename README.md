@@ -41,11 +41,22 @@ During preprocessing, the dataset is cleaned and saved as: data/imdb62.csv
 
 ---
 
+# Installation
+
+Clone the repository and install dependencies:
+
+```bash
+pip install -r requirements.txt
+```
+---
+
 # How to Run
 
 Run the full pipeline:
 
+```bash
 python src/imdb62_authorship.py
+```
 
 This will:
 
