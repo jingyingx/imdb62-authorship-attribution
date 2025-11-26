@@ -54,6 +54,17 @@ This will:
 - Train a BiLSTM model
 - Evaluate again
 
+# Stylometric Features Used
+
+✔ Discourse markers (and, but, however, though)
+✔ Punctuation style (commas, periods, quotes, dashes…)
+✔ Vocabulary richness (TTR, hapax)
+✔ POS-based lexical richness (VERB/AUX, ADJ, ADV)
+✔ Modal usage (can, will, would, may…)
+✔ Superlatives (“most”, “*est”)
+✔ Pronoun rates (1st and 2nd person)
+✔ Length/digit statistics (log length, digit ratio)
+
 # Models
 1. LinearSVC (Primary Model)
 
@@ -97,7 +108,9 @@ Link: https://publications.idiap.ch/downloads/papers/2020/Fabien_ICON2020_2020.p
 The LinearSVC + stylometry pipeline (~99% accuracy) outperforms:
 - a naive BiLSTM baseline
 - the published BERTAA result (~93% accuracy) under comparable dataset conditions
+
 This supports the finding that:
+
 **Smart feature engineering + linear models can outperform both naive neural models and transformer-based systems on stylometric authorship attribution tasks.**
 
 
