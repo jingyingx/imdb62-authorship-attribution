@@ -39,6 +39,8 @@ We use the IMDB62 dataset from HuggingFace:
 
 During preprocessing, the dataset is cleaned and saved as: data/imdb62.csv
 
+---
+
 # How to Run
 
 Run the full pipeline:
@@ -54,6 +56,8 @@ This will:
 - Train a BiLSTM model
 - Evaluate again
 
+---
+
 # Stylometric Features Used
 
 - Discourse markers (and, but, however, though)
@@ -64,6 +68,8 @@ This will:
 - Superlatives (“most”, “*est”)
 - Pronoun rates (1st and 2nd person)
 - Length/digit statistics (log length, digit ratio)
+
+---
 
 # Models
 1. LinearSVC (Primary Model)
@@ -82,6 +88,8 @@ A simple neural text model:
 - Softmax output over 62 authors
 Not optimized; included as a deep learning comparison point.
 
+---
+
 # Results
 
 Performance on an 80/20 stratified split (12,395 test reviews):
@@ -97,6 +105,8 @@ BiLSTM (token-based sequence model)
 Accuracy:  0.4252
 Macro-F1:  0.4114
 
+---
+
 # Comparison with Published BERTAA Results
 
 According to Fabien et al. (2020), the BERTAA + style + hybrid model
@@ -111,9 +121,9 @@ The LinearSVC + stylometry pipeline (~99% accuracy) outperforms:
 
 This supports the finding that:
 
-**Smart feature engineering + linear models can outperform both naive neural models and transformer-based systems on stylometric authorship attribution tasks.**
+>**Smart feature engineering + linear models can outperform both naive neural models and transformer-based systems on stylometric authorship attribution tasks.**
 
-
+---
 
 # Author
 
