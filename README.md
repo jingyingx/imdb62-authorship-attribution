@@ -86,6 +86,7 @@ A simple neural text model:
 - Embedding layer
 - Bidirectional LSTM
 - Softmax output over 62 authors
+  
 Not optimized; included as a deep learning comparison point.
 
 ---
