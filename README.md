@@ -48,6 +48,15 @@ Clone the repository and install dependencies:
 ```bash
 pip install -r requirements.txt
 ```
+
+Download the spaCy English model:
+
+```bash
+python -m spacy download en_core_web_sm
+```
+
+This will install all Python packages required to run the feature engineering pipeline, LinearSVC classifier, and BiLSTM model.
+
 ---
 
 # How to Run
