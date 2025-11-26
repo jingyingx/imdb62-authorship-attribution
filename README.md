@@ -64,7 +64,7 @@ This will install all Python packages required to run the feature engineering pi
 Run the full pipeline:
 
 ```bash
-python src/imdb62_authorship.py
+python imdb62_authorship.py
 ```
 
 This will:
