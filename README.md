@@ -56,14 +56,14 @@ This will:
 
 # Stylometric Features Used
 
-✔ Discourse markers (and, but, however, though)
-✔ Punctuation style (commas, periods, quotes, dashes…)
-✔ Vocabulary richness (TTR, hapax)
-✔ POS-based lexical richness (VERB/AUX, ADJ, ADV)
-✔ Modal usage (can, will, would, may…)
-✔ Superlatives (“most”, “*est”)
-✔ Pronoun rates (1st and 2nd person)
-✔ Length/digit statistics (log length, digit ratio)
+- Discourse markers (and, but, however, though)
+- Punctuation style (commas, periods, quotes, dashes…)
+- Vocabulary richness (TTR, hapax)
+- POS-based lexical richness (VERB, ADJ, ADV)
+- Modal usage (can, will, would, may…)
+- Superlatives (“most”, “*est”)
+- Pronoun rates (1st and 2nd person)
+- Length/digit statistics (log length, digit ratio)
 
 # Models
 1. LinearSVC (Primary Model)
