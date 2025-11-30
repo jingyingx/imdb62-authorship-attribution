@@ -30,7 +30,7 @@ This project explores an alternative path:
 
 ---
 
-# Dataset: IMDB62
+# Dataset: IMDb62
 
 We use the IMDB62 dataset from HuggingFace:
 
@@ -71,7 +71,7 @@ python imdb62_authorship.py
 
 This will:
 
-- Download & preprocess IMDB62
+- Download & preprocess IMDb62
 - Extract TF–IDF and stylometric features
 - Train a LinearSVC model
 - Evaluate on a 20% test split
@@ -133,7 +133,7 @@ Macro-F1:  0.4114
 # Comparison with Published BERTAA Results
 
 According to Fabien et al. (2020), the BERTAA + style + hybrid model
-achieves ~93.0% accuracy on IMDB62 (Table 5, 10 training epochs).
+achieves ~93.0% accuracy on IMDb62 (Table 5, 10 training epochs).
 Link: https://publications.idiap.ch/downloads/papers/2020/Fabien_ICON2020_2020.pdf
 
 ✔ Interpretation
