@@ -1,6 +1,8 @@
-# Authorship Attribution on IMDB62
+# Feature engineering > Big Models: Authorship Attribution on IMDb62
 
-This repository implements a high-performing **non-transformer** baseline for authorship attribution on the IMDB62 dataset.  
+This project shows that **smart feature engineering + linear models** can outperform both naïve neural architectures and transformer-based systems on stylometric authorship attribution. 
+
+This repository implements a high-performing **non-transformer** baseline for authorship attribution on the IMDb62 dataset.  
 The system combines:
 
 - **Character TF–IDF** (3–5 char n-grams)  
